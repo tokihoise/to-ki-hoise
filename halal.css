@@ -1,0 +1,151 @@
+* {margin:0;
+	padding:0; 
+	box-sizing:border-box;}
+
+@media not|only mediatype and (expressions) {
+  CSS-Code;
+}
+
+section{width:100%;
+	position:relative;
+	height: 500px;
+	background:#57ffa8;
+	overflow:hidden;
+}	
+
+section .wave{width:100%;
+			position:absolute;
+			height:100px;
+			bottom: 0;
+			left: 0;
+			background: url(wave.png);
+			background-size:1000px 100px;}
+
+.lekha{color:#80004c;
+	
+		padding-left:300px ;
+		font-family: 'Lobster', cursive;
+		}
+				
+.lekha1	{color:#80004c;
+		font-size:33px;
+		padding-left:400px ;
+		font-family: 'Lobster', cursive;
+		}
+		.lekha2	{color:black;
+		font-size:20px;
+		padding:20px;
+		font-family: 'Lobster', cursive;
+		}
+		
+
+		.dava {
+  width:6.4vw;
+  height: 6.4vw;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+	animation-iteration-count: infinite;
+		}
+	
+	@keyframes example {
+  0%   {background-color:#80ffff; left:0px; top:0px;}
+  25%  {background-color:#33ff33; left:200px; top:0px;}
+  50%  {background-color:yellow; left:200px; top:200px;}
+  75%  {background-color:#ffa31a; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.dava1{float:right;
+	width:6.4vw;
+  height: 6.4vw;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;
+	animation-iteration-count: infinite;
+	}
+
+@keyframes example {
+  0%   {background-color:#80ffff; left:0px; top:0px;}
+  25%  {background-color:#33ff33; left:200px; top:0px;}
+  50%  {background-color:yellow; left:200px; top:200px;}
+  75%  {background-color:#ffa31a; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.halag{padding-left:20vw;}
+
+.balok{background-color: #baffab;}
+
+
+@media screen and (min-width:400px) {
+  .lekha {
+    
+	padding-left:100px;
+	
+  }
+  .lekha1 {
+    
+	padding-left:100px;
+   
+  }
+	
+}
+
+@media screen and (min-width:60px) {
+  .lekha {
+    
+	
+	padding-top:100px;
+  
+  }
+  .lekha1 {
+    
+	
+	padding-top:10px;
+  }
+}
+
+
+
+@media screen and (min-width:600px) {
+  .lekha {
+    
+	padding-left:200px;
+	padding-top:0px;
+  
+  }
+  .lekha1 {
+    
+	padding-left:200px;
+	padding-top:0px;
+  }
+}
+@media screen and (min-width:800px) {
+  .lekha {
+    
+	padding-left:300px;
+  }
+  .lekha1 {
+    
+	padding-left:300px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .lekha {
+    
+	padding-left:400px;
+  }
+  .lekha1 {
+    
+	padding-left:400px;
+  }
+}
+
+button {background-color:black; margin-right:30px;color:white; height:100px; width:150px}
+
+button:hover {background-color:white; color:black}
+/* textarea:hover{background-image:url("search.png"); background-repeat:no-repeat;background-color:yellow;color:black;background-position:10px 4px; padding-left:33px; font-family:bold; font-size:20px;}
+textarea{background-color:black;color:white} */
